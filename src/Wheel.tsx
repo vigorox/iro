@@ -97,7 +97,8 @@ export function IroWheel(props: IroWheelProps) {
             <div className="IroWheelLightness" style={{
               ...circleStyles,
               background: '#000',
-              opacity: 1 - hsv.v / 100
+              // opacity: 1 - hsv.v / 100
+              opacity: (1 - hsv.v / 100) >= 0.7 ? 0.7 : (1 - hsv.v / 100)
             }}/>
           )}
           <div className="IroWheelBorder" style={{
