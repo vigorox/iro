@@ -1,52 +1,9 @@
-<h1 align="center"><a href="//iro.js.org" target="blank"><img height="340" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/screenshot.png"/><br/>iro.js</a></h1>
+<h1 align="center">iro.js</h1>
 
-<p align="center">
-  <b>Modular, design-conscious color picker widget for JavaScript - with support for a bunch of color formats | <a href="//iro.js.org" target="blank">iro.js.org</a></b>
-</p>
+Forked from <a href="https://github.com/jaames/iro.js">@jaames/iro.js</a>
 
-<p align="center">
-  <a href="https://github.com/jaames/iro.js/blob/master/LICENSE.txt">
-    <img src="https://badgen.net/github/license/jaames/iro.js?color=BB5FD1" alt="license" />
-  </a>
-  <a href="https://npmjs.org/package/@jaames/iro">
-    <img src="https://badgen.net/npm/v/@jaames/iro?color=6C8FF2" alt="version" />
-  </a>
-  <a href="https://npmjs.org/package/@jaames/iro">
-    <img src="https://badgen.net/npm/dt/@jaames/iro?color=6AD4E0" alt="downloads" />
-  </a>
-  <a href="https://bundlephobia.com/result?p=@jaames/iro">
-    <img src="https://badgen.net/bundlephobia/minzip/@jaames/iro?color=6FDF89" alt="minzip size" />
-  </a>
-  <a href="">
-    <img src="https://badgen.net/badge/jQuery/none/F8AE55" alt="no jQuery" />
-  </a>
-</p>
+*The only difference is that the wheel will still got some brightness when RGB are all 0%.*
 
-<p align="center">
-  <a href="#features">Features</a> | <a href="#demo">Demo</a> | <a href="#installation">Installation</a> | <a href="#usage">Usage</a> | <a href="#plugins">Plugins</a> | <a href="https://iro.js.org/guide.html">Documentation</a> | <a href="#special-thanks">Special Thanks</a> | <a href="https://github.com/jaames/iro.js/discussions">Forum</a>
-</p>
-
-<br/>
-
-## Features
-
- * Work with colors in hex, RGB, HSV and HSL formats (plus kelvin temperatures!) in one simple, frictionless API
- * Add multiple colors to the same color picker for selecting color harmonies and themes
- * Create the perfect color picker from a selection of pre-built UI components
- * All of iro.js can run from a single script - no extra CSS, images, or third-party libraries required!
- * [~9kb](https://bundlephobia.com/result?p=@jaames/iro) minified and gzipped
- * Licenced under MPL 2.0 - 100% free for personal and commercial use
-
-<img height="16" height="888" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/break.png"/>
-
-## Codepen Demos
-
- * [Basic introduction](https://codepen.io/rakujira/pen/WZOeNq)
- * [Multicolor](https://codepen.io/rakujira/pen/bGddRyq)
- * [Components / alternate layouts](https://codepen.io/rakujira/pen/XWbgwYm)
- * [Custom handle SVGs](https://codepen.io/rakujira/pen/vbeENp)
-
-<img height="16" height="888" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/break.png"/>
 
 ## Installation
 
@@ -55,7 +12,7 @@
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./examples/readme/install.sh) -->
 <!-- The below code snippet is automatically added from ./examples/readme/install.sh -->
 ```sh
-npm install @jaames/iro --save
+npm install @vigorox/iro --save
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -64,45 +21,15 @@ If you are using a module bundler like Webpack or Rollup, import iro.js into you
 <!-- The below code snippet is automatically added from ./examples/readme/install.js -->
 ```js
 // Using ES6 module syntax
-import iro from '@jaames/iro';
+import iro from '@vigorox/iro';
 
 // Using CommonJS modules
-const iro = require('@jaames/iro');
+const iro = require('@vigorox/iro');
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
-### Using the jsDelivr CDN
-
-<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./examples/readme/install.html) -->
-<!-- The below code snippet is automatically added from ./examples/readme/install.html -->
-```html
-<script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
-```
-<!-- MARKDOWN-AUTO-DOCS:END -->
 
 When you manually include the library like this, iro.js will be made globally available on window.iro.
-
-### Download and host yourself
-
-**[Development version](https://raw.githubusercontent.com/jaames/iro.js/master/dist/iro.js)**<br/>
-Uncompressed, with source comments included. Intended for debugging.
-
-**[Production version](https://raw.githubusercontent.com/jaames/iro.js/master/dist/iro.min.js)**<br/>
-Minified and optimized version.
-
-Then add it to the `<head>` of your page with a `<script>` tag:
-
-```html
-<html>
-  <head>
-    <!-- ... -->
-    <script src="./path/to/iro.min.js"></script>
-  </head>
-  <!-- ... -->
-</html>
-```
-
-<img height="16" height="888" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/break.png"/>
 
 ## Usage
 
@@ -327,19 +254,3 @@ Fired when the colorPicker's UI has been mounted to the DOM and is ready for use
 
 <img height="16" height="888" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/break.png"/>
 
-## Special Thanks
-
-Thank you to the following people for their support and contributions!
-
-- @KaanMol and @mksglu for starting the Typescript port
-- @asonix for vertical slider implementation
-
-**Sponsored by [Ship Shape](https://shipshape.io)**
-
-<img width="400" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/sponsor_shipshape.png">
-
-<img height="16" height="888" src="https://raw.githubusercontent.com/jaames/iro.js/master/assets/break.png"/>
-
-[Website](//iro.js.org) |  [Forum](https://github.com/jaames/iro.js/discussions) | [Codepen Demo](//codepen.io/rakujira/pen/WZOeNq?editors=0010) | [Contribution Guide](CONTRIBUTE.md) | [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XS9R3QTLZYAXQ&source=url) | [Changelog](CHANGELOG.md) | [License](LICENSE.txt)
-
-&copy; [James Daniel](//github.com/jaames)
