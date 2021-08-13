@@ -12,7 +12,7 @@ Forked from <a href="https://github.com/jaames/iro.js">@jaames/iro.js</a>
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./examples/readme/install.sh) -->
 <!-- The below code snippet is automatically added from ./examples/readme/install.sh -->
 ```sh
-npm install @vigorox/iro --save
+npm install @jaames/iro --save
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -21,10 +21,10 @@ If you are using a module bundler like Webpack or Rollup, import iro.js into you
 <!-- The below code snippet is automatically added from ./examples/readme/install.js -->
 ```js
 // Using ES6 module syntax
-import iro from '@vigorox/iro';
+import iro from '@jaames/iro';
 
 // Using CommonJS modules
-const iro = require('@vigorox/iro');
+const iro = require('@jaames/iro');
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
